@@ -1,0 +1,133 @@
+html,
+body {
+  background-color: #222222;
+  height: 100%;
+}
+
+hr {
+  border: 1pt solid #444;
+}
+
+/*******************************************
+ Navigation
+ *******************************************/
+.navbar {
+  background-color: #222222;
+  height: 80pt;
+  margin: 0 40pt;
+}
+
+.navbar .brand {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15pt;
+  color: #ffffff;
+}
+
+.navbar a.navbar-item {
+  color: #f1a422;
+}
+.navbar a:hover.navbar-item {
+  color: #f1c322;
+  background-color: #222222;
+}
+
+/*******************************************
+ Hero
+ *******************************************/
+.hero .title {
+  color: #ffffff;
+  font-size: 36pt;
+  font-weight: 300;
+}
+
+.hero .links {
+  color: #ffffff;
+}
+
+.hero a {
+  color: #f1a422;
+}
+
+.hero a:hover {
+  color: #f1c322;
+}
+
+
+/*******************************************
+ App Icons
+ *******************************************/
+.card {
+  border-radius: 8px;
+}
+
+.card .card-title {
+  font-size: 12pt;
+}
+
+.card a {
+  color: #000;
+}
+
+/*******************************************
+ App Contents
+ *******************************************/
+.contents {
+  padding-top: 20px;
+}
+
+.contents .title {
+  color: #bbb;
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+.contents .subtitle {
+  margin-top: 6px;
+  margin-bottom: 18px;
+  color: #bbb;
+  font-size: 14pt;
+  font-weight: 400;
+}
+
+.contents div {
+  margin-bottom: 12px;
+  text-align: justify;
+  color: #bbb;
+  font-size: 11pt;
+}
+
+.contents a {
+  color: #f1a422;
+}
+.contents a:hover {
+  color: #f1c322;
+}
+
+
+/*******************************************
+ Footer
+ *******************************************/
+.footer {
+  background-color: #222222;
+  font-size: 10pt;
+  color: #666666;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footer .column {
+  height: 15pt;
+}
+
+.footer a {
+  color: #666666;
+}
+
+.footer a:hover {
+  color: #888888;
+}
