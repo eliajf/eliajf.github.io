@@ -17,15 +17,17 @@ hr {
   margin: 0 40pt;
 }
 
-.navbar .brand {
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  text-transform: uppercase;
+.navbar .navbar-brand .navbar-item {
+   text-transform: uppercase;
   font-weight: 500;
   font-size: 15pt;
   color: #ffffff;
+}
+
+.navbar .navbar-brand .navbar-item img {
+  height: 28px;
+  width: 28px;
+  margin-right: 10pt;
 }
 
 .navbar a.navbar-item {
@@ -116,8 +118,6 @@ hr {
   background-color: #222222;
   font-size: 10pt;
   color: #666666;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 .footer .column {
